@@ -33,5 +33,26 @@ fun main() {
 
     println("El numero entero dentro del programa es: ${numero}")
 
+    // Variables de tipo Explicito
 
+    println("Variables de Tipo EXPLICITO")
+
+    /* Estas se usan directamente especificando el tipo de variable o tipo de dato que
+     contendrá. Ejemplo: */
+
+    var numero1: Int
+
+    var decimal1:  Double
+
+    var caracter: Char
+
+    /* NOTA: Para poder imprimir en pantalla una variable de tipo explicita, esta debe estar iniciada
+    con algún valor previamente */
+
+    // Para el tema de operaciones matematicas se usan los siguientes operadores lógicos:
+    /* Para la suma se usa el simbolo: +
+     Para la resta usamos el simbolo: -
+     Para la Multiplicación se usa: *
+     Y para la división usamos el simbolo: /
+     */
 }
