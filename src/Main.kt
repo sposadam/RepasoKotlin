@@ -111,6 +111,7 @@ fun main() {
         println("Eres menor de edad")
     }
     */
+    /*
     println("INGRESE UN NUMERO ENTERO")
     var numero = readln().toInt()
 
@@ -121,6 +122,67 @@ fun main() {
     } else {
         println("EL NUMERO DIGITADO ES CERO")
     }
+    */
 
+    //WHEN -> Match (Python) - Switch (Java)
+
+    /* println(
+        """
+        INGRESE UNA OPCIÓN 
+        1. SUMAR
+        2. RESTAR
+        3. MULTIPLICAR
+        4. DIVIDIR
+    """.trimIndent()
+    )
+
+    var op = readln().toInt()
+
+    when (op) {
+        1 -> {
+            println("VAMOS A SUMAR")
+            println("OPERACIÓN SUMA")
+        }
+
+        2 -> {
+            println("VAMOS A RESTAR")
+            println("OPERACIÓN RESTA")
+        }
+
+        3 -> {
+            println("VAMOS A MULTIPLICAR")
+            println("OPERACIÓN MULTIPLICACIÓN")
+        }
+
+        4 -> {
+            println("VAMOS A DIVIDIR")
+            println("OPERACIÓN DIVISIÓN")
+        }
+
+        else -> println("ERROR: La operación seleccionada no existe")
+    }
+    */
+
+    // CICLOS
+    /*
+    // La palabra in (initial) se usa para iniciar en un número especifico el ciclo, en este caso
+    // se imprime desde el 1 hasta el 100
+    for (i in 1 .. 10){
+        println(i)
+    }
+
+    // Para que el ciclo comience en este caso desde el 100 y vaya en retroceso o de manera
+    // descendente hasta el 1 se utiliza la palabra reservada downTo, a parte queremos
+    // que se impraman los números correspondientes de 2 en 2, para se esto usamos la palabra "step 2"
+    for (i in 100 downTo 1 step 2){
+        println(i)
+    }
+
+    // Para que el ciclo vaya de tres en tres utilizamos la palabra reservada step y le especificamos
+    // el salto correspondiente en este caso el 3
+    for (i in 1 .. 100 step 3){
+        println(i)
+    }
+    */
 
 }
